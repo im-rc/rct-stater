@@ -2,14 +2,16 @@ import "./App.css";
 import CounterClassComponent from "./components/CounterClassComponent";
 import CounterFunctionComponent from "./components/CounterFunctionComponent";
 import Switch from "./components/Switch";
+import UserForm from "./components/UserForm";
 
 function App() {
   return (
     <div>
       <h1>App component</h1>
-      <CounterClassComponent />
+      {/* <CounterClassComponent />
       <CounterFunctionComponent />
-      <Switch />
+      <Switch /> */}
+      <UserForm />
     </div>
   );
 }
